@@ -1,10 +1,9 @@
-### Get file content ###
-file = open("day1/numbers.txt", "r")
 
 content = split.(readlines(file))
 get_sorted(n) = sort(parse.(Int, getindex.(content, n)))
 A, B = get_sorted.([1,2]) # get sorted integer vectors of both columns
 
+# some more comments
 ### 1. part: distance between lists ###
 distance = sum(abs.(A - B))
 println("Distance between lists: $(distance)")

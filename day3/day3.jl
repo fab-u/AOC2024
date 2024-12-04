@@ -1,4 +1,4 @@
-input = read("day3/input.txt", String)
+ input = read("day3/input.txt", String)
 
 # check if the first character(s) are digits
 # if so, returns the number and its digit count
